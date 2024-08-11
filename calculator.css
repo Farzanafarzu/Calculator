@@ -1,3 +1,7 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 #container {
     width: 200px;
     border-radius: 10px;
@@ -40,14 +44,19 @@
     margin: 5px;
     background-color: rgb(46, 43, 43);
     box-shadow: 5px 3px 5px rgba(5, 135, 139, .7);
-    
+    }
+.button_c:hover {
+    scale: 1.2;
 }
-.background {
+body {
     height: 1024px;
-    width: 100%;
     background-image: url(background\ img.jpeg);
-    background-size: contain;
     background-repeat: no-repeat;
-    
-    
+} 
+@media screen and (max-width: 400px)
+    {
+        #container {
+            position: fixed;
+            left: 24%;
+        }
 }
