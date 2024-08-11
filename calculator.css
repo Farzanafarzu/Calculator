@@ -57,7 +57,7 @@ body {
     background-image: url(background\ img.jpeg);
     background-repeat: no-repeat;
 } 
-@media screen and (max-width: 400px)
+@media screen and (max-width: 750px)
     {
         #container {
             position: relative;
