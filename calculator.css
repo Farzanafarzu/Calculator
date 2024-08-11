@@ -52,6 +52,9 @@
    transform: scale (2);
    background-color: rgb(5, 135, 139);
 }
+.button_c:action{
+    background-color: rgb(5, 135, 139);
+}
 body {
     height: 1024px;
     background-image: url(background\ img.jpeg);
@@ -60,7 +63,7 @@ body {
 @media screen and (max-width: 400px)
     {
         #container {
-            position: fixed;
+            position: absolute;
             top: 15%;
             left: 12%;
         }
