@@ -8,8 +8,8 @@
     background-color: rgb(64, 74, 75);
     border: 1px solid rgb(180, 175, 175);
     position: absolute;
-    left: 40%;
-    top: 40%;
+    left: 43%;
+    top: 50%;
 }
 #display {
     margin: 10px;
@@ -57,6 +57,7 @@ body {
     {
         #container {
             position: fixed;
+            top: 35%;
             left: 24%;
         }
 }
