@@ -49,11 +49,8 @@
     transition-timing-function: ease-in-out;
     }
 .button_c:hover{
-   transform: scale (2);
-   background-color: rgb(5, 135, 139);
-}
-.button_c:action{
-    background-color: rgb(5, 135, 139);
+   transform: translate (2);
+   color: rgb(5, 135, 139);
 }
 body {
     height: 1024px;
@@ -63,8 +60,8 @@ body {
 @media screen and (max-width: 400px)
     {
         #container {
-            position: absolute;
-            top: 15%;
-            left: 12%;
+            position: relative;
+            top: 10%;
+            left: 10%;
         }
 }
