@@ -44,9 +44,12 @@
     margin: 5px;
     background-color: rgb(46, 43, 43);
     box-shadow: 5px 3px 5px rgba(5, 135, 139, .7);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
     }
-.button_c:hover {
-    scale: 1.2;
+.button_c:hover{
+   transform: scale (1.4);
 }
 body {
     height: 1024px;
@@ -57,7 +60,7 @@ body {
     {
         #container {
             position: fixed;
-            top: 35%;
-            left: 24%;
+            top: 20%;
+            left: 18%;
         }
 }
