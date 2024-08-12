@@ -49,7 +49,7 @@
     transition-timing-function: ease-in-out;
     }
 .button_c:hover{
-   transform: translate (2);
+   transform: scale(1.5);
    color: rgb(5, 135, 139);
 }
 body {
@@ -57,11 +57,11 @@ body {
     background-image: url(background\ img.jpeg);
     background-repeat: no-repeat;
 } 
-@media screen and (max-width: 750px)
+@media screen and (max-width: 500px)
     {
         #container {
-            position: relative;
-            top: 10%;
-            left: 10%;
+            position: fixed;
+            top: 30%;
+            left: 24%;
         }
 }
